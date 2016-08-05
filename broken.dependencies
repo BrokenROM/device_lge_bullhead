@@ -1,11 +1,13 @@
 [
  {
-   "repository":  "Rogue-Status/android_kernel_lge_bullhead-1",
+   "remote":      "github"
+   "repository":  "Rogue-Status/kernel_lge_bullhead",
    "target_path": "kernel/lge/bullhead",
    "branch":      "cm-13.0"
  },
  {
-   "repository":  "Rogue-Status/proprietary_vendor_lge-1",
+   "remote":      "github"
+   "repository":  "Rogue-Status/vendor_lge",
    "target_path": "vendor/lge",
    "branch":      "cm-13.0"
  }
