@@ -35,6 +35,7 @@ ENABLE_CPUSETS := true
 TARGET_NO_BOOTLOADER := true
 
 # Inline kernel
+TARGET_GCC_VERSION_ARM64 := 4.9-kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/lge/bullhead
 TARGET_KERNEL_CONFIG := cyanogenmod_bullhead_defconfig
