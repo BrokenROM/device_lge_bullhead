@@ -25,6 +25,10 @@ TARGET_2ND_ARCH_VARIANT := armv7-a-neon
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53.a57
+CLANG_O3 := true
+STRICT_ALIASING := true
+GRAPHITE_OPTS := true
+ENABLE_GCCONLY := true
 
 ENABLE_CPUSETS := true
 
