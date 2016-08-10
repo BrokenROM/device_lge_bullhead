@@ -34,6 +34,9 @@ ENABLE_CPUSETS := true
 
 TARGET_NO_BOOTLOADER := true
 
+# Enable workaround for slow rom flash
+ BOARD_SUPPRESS_SECURE_ERASE := true
+
 # Inline kernel
 TARGET_GCC_VERSION_ARM64 := 4.9-kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
