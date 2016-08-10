@@ -41,7 +41,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_GCC_VERSION_ARM64 := 4.9-kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/lge/bullhead
-TARGET_KERNEL_CONFIG := cyanogenmod_bullhead_defconfig
+TARGET_KERNEL_CONFIG := elementalx_defconfig
 
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
